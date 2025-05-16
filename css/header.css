@@ -56,6 +56,12 @@
     cursor: pointer;
 }
 
+.cabecalho-navegacao__list--link, 
+.cabecalho-top__link {
+    text-decoration: none;
+    color: inherit;
+}
+
 #hidden {
     display: none;
 }
