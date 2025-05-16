@@ -81,6 +81,34 @@ a {
     line-height: 1.2em;
 }
 
+@media screen and (max-width: 428px) {
+    .content {
+        text-align: center;
+    }
+    
+    .apresentacao__text--title {
+        font-size: 2.5em;
+        text-align: justify;
+    }
+
+    .apresentacao__text--paragrafo {
+        font-size: 1em;
+        line-height: 1.4em;
+    }
+
+    .apresentacao__text--buttton {
+        font-size: 16px;
+    }
+
+    .content-links__social {
+        flex-direction: row;
+    }
+    
+    .content-img {
+        display: none;
+    }
+}
+
 @media screen and (min-width: 768px) {
     .content-links__social {
         flex-direction: row;

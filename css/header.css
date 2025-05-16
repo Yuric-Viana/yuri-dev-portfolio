@@ -60,6 +60,12 @@
     display: none;
 }
 
+@media screen and (max-width: 428px) {
+    .cabecalho-top__emoji {
+        display: none;
+    }
+}
+
 @media screen and (min-width: 1024px) {
     .content-img__cubo {
         display: none;
