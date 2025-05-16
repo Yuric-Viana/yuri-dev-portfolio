@@ -2,6 +2,7 @@
 
 @import url('css/header.css');
 @import url('css/main.css');
+@import url('css/footer.css');
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -70,5 +71,13 @@ table {
                 linear-gradient(to right, var(--cor-secundaria) 0%, #000) border-box;
     border-radius: 1em;
 	padding: 2em;
-	height: 100vh;
+	height: auto;
+}
+
+@media screen and (min-width: 1024px) {
+	.caixa {
+		margin: 4em 2em;
+		padding: 4em 6em;
+		height: auto;
+	}
 }

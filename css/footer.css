@@ -1,0 +1,20 @@
+.rodape {
+    margin-top: 3em;
+}
+
+.rodape p {
+    font-size: 12px;
+}
+
+@media screen and (min-width: 768px) {
+    .rodape p {
+        font-size: 1em;
+    }   
+}
+
+@media screen and (min-width: 1024px) {
+    .rodape p {
+        font-size: 1.5em;
+    }   
+}
+

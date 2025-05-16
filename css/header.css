@@ -16,6 +16,7 @@
     color: black;
     font-size: 1.5em;
     font-weight: 600;
+    cursor: pointer;
 
     & strong {
         color: var(--cor-secundaria);
@@ -52,4 +53,49 @@
     padding: 1em;
     margin: .5em 0;
     border-radius: 5px;
+    cursor: pointer;
+}
+
+#hidden {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .content-img__cubo {
+        display: none;
+    }
+
+    .cabecalho {
+        display: flex;
+        gap: 5em;
+    }
+
+    .cabecalho-top__menu, 
+    .cabecalho-top__emoji {
+        display: none;
+    }
+
+    .cabecalho-navegacao {
+        opacity: 1;
+        transform: translateY(0);
+        position: relative;
+    }
+
+    .cabecalho-navegacao__list {
+        display: flex;
+        justify-content: center;
+        gap: 3em;
+    }
+
+    .navegacao__list--item {
+        border: none;
+        font-size: 1.5em;
+        cursor: pointer;
+        pointer-events: auto;
+    }
+
+    #hidden {
+        display: block;
+        width: 3em;
+    }
 }
