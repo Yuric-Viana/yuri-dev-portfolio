@@ -47,7 +47,7 @@ body {
 	background-color: var(--cor-primaria);
 	font-family: var(--font-principal);
 	color: var(--cor-text);
-	padding: 2em;
+	padding: 2em; 	
 }
 ol, ul {
 	list-style: none;
@@ -78,6 +78,6 @@ table {
 	.caixa {
 		margin: 4em 2em;
 		padding: 4em 6em;
-		height: auto;
+		height: auto 0;
 	}
 }
