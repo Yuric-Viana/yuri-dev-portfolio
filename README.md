@@ -32,8 +32,3 @@ Mostrar meus projetos, minhas habilidades como desenvolvedor front-end e proporc
 ## 📸 Preview
 
 Acesse o site: [yuri-dev-portfolio](https://yuri-dev-portfolio-delta.vercel.app/)
-
-
-> Substitua o caminho acima pela imagem real ou use um link externo (como de uma hospedagem ou deploy).
-
----
