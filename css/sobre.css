@@ -1,4 +1,8 @@
-.content-sobre {
+.main {
+    text-align: center;
+}
+
+.main-sobre {
     margin: 4em auto;
 
     & strong {
@@ -6,27 +10,129 @@
     }
 }
 
-.content-sobre__foto {
+.main-sobre__foto {
     width: 10em;
     opacity: 0.7;
     border-radius: 1em;
 }
 
-.content-sobre__subtitle {
+.main-sobre__subtitle {
     font-size: 1.5em;
     margin: 1.5em 0;
 }
 
-.content-sobre__title {
+.main-sobre__title {
     font-size: 1.5em;
     text-align: justify;
     margin-bottom: .8em;
     line-height: 1.2em;
 }
 
-.content-sobre__descricao{
+.main-sobre__descricao{
     font-size: 14px;
     text-align: justify;
     line-height: 1.2em;
 }
 
+.main-slider {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    padding: 0 !important;
+    overflow: hidden;
+}
+
+.main-projetos {
+    width: 400%;
+    height: auto;
+    display: flex;
+    padding-bottom: 2em;
+}
+
+
+.main-btn {
+    display: none;
+}
+
+#radio1:checked ~ .main-slider .main-projetos__manual label[for="radio1"],
+#radio2:checked ~ .main-slider .main-projetos__manual label[for="radio2"],
+#radio3:checked ~ .main-slider .main-projetos__manual label[for="radio3"] {
+    background-color: var(--cor-secundaria);
+}
+
+#radio1:checked ~ .main-slider .primeiro {
+    margin-left: 0%;
+}
+
+#radio2:checked ~ .main-slider .segundo{
+    margin-left: -25%;
+}
+
+#radio3:checked ~ .main-slider .terceiro {
+    margin-left: -50%;
+}
+
+.main-projetos__item {
+    border: 1px solid var(--cor-secundaria);
+    padding: 1.8em .5em;
+    width: 25%;
+    height: auto;
+    text-align: start;
+    position: relative;
+    margin-top: 1.5em;
+    background: linear-gradient(var(--cor-secundaria) 0.2%, #000);
+
+    & button {
+        background-color: var(--cor-secundaria);
+        border: none;
+        color: var(--cor-text);
+        padding: .8em;
+        margin-top: 1em;
+        margin-left: 1em;
+        border-radius: 5px;
+    }
+}
+
+.projetos__item--title {
+    font-size: 18px;
+    font-weight: 500;
+    width: 90%;
+    margin: auto;
+}
+
+.projetos__item--descricao {
+    font-size: 12px;
+    color: var(--branco-escuro);
+    line-height: 1.2em;
+    width: 90%;
+    margin: 1em auto;
+}
+
+.main-projetos__controle {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.main-projetos__manual,
+.main-projetos__auto {
+    position: absolute;
+    bottom: .2em;
+    justify-content: center;
+    display: flex;
+    gap: 0.5em;
+    z-index: 10;
+}
+
+.main-projetos__manual .projetos__manual-btn, 
+.main-projetos__auto div{
+    border: 1px solid var(--cor-secundaria);
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.main-projetos__manual .projetos__manual-btn:hover {
+    background-color: var(--cor-secundaria);
+}

@@ -5,7 +5,7 @@ const contentHidden = document.querySelectorAll('.hidden');
 let ativo = true;
 
 export function navBar() {
-    menuHamburguer.addEventListener('click', () => {
+    menuHamburguer.addEventListener('click', (e) => {
         listaMenu.classList.toggle('ativo');
         
         ativo = !ativo;
@@ -14,8 +14,7 @@ export function navBar() {
         
         contentHidden.forEach(hidden => {
             hidden.style.opacity = ativo ? 1 : 0;
-        })
-        
+        })        
     })
 } 
 

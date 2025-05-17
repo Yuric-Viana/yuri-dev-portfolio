@@ -1,5 +1,6 @@
 .content {
     display: flex;
+    margin-top: 4em;
 }
 
 .content-apresentacao {
@@ -9,7 +10,7 @@
 
 .apresentacao__text--paragrafo {
     font-size: 1.3em;
-    color: #FFFFFFd9;
+    color: var(--branco-escuro);
     line-height: 1.2em;
 }
 

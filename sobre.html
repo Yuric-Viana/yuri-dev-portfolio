@@ -28,13 +28,52 @@
             <img id="hidden" src="assets/rosto-emoji.svg" alt="Emoji de rosto">
         </header>
 
-        <main class="content">
-            <div class="content-sobre">
-                <img class="hidden content-sobre__foto" src="assets/foto-pessoal.jpeg" alt="Foto minha">
-                <h2 class="content-sobre__subtitle">Sobre mim</h2>
-                <h1 class="content-sobre__title">Transformando ideias em <strong>experiências digitais</strong></h1>
-                <p class="content-sobre__descricao">Sou estudante de Engenharia de Software com paixão por criar sites interativos, responsivos e centrados no usuário. Meu foco é transformar conceitos em interfaces funcionais, intuitivas e visualmente envolventes — sempre pensando na melhor experiência possível para quem navega.</p>
+        <main class="hidden main">
+            <div class="main-sobre">
+                <img class="hidden main-sobre__foto" src="assets/foto-pessoal.jpeg" alt="Foto minha">
+                <h2 class="main-sobre__subtitle">Sobre mim</h2>
+                <h1 class="main-sobre__title">Transformando ideias em <strong>experiências digitais</strong></h1>
+                <p class="main-sobre__descricao">Sou estudante de Engenharia de Software com paixão por criar sites interativos, responsivos e centrados no usuário. Meu foco é transformar conceitos em interfaces funcionais, intuitivas e visualmente envolventes — sempre pensando na melhor experiência possível para quem navega.</p>
             </div>
+            
+            <input class="main-btn" type="radio" name="btn-radio" id="radio1">
+            <input class="main-btn" type="radio" name="btn-radio" id="radio2">
+            <input class="main-btn" type="radio" name="btn-radio" id="radio3">
+
+            <section class="main-slider">
+                <h2 class="main-projetos__title">Meus projetos acadêmicos</h2>
+                <div class="main-projetos">
+                
+                    <div class="main-projetos__item primeiro">
+                        <h2 class="projetos__item--title">Pomodoro</h2>
+                        <p class="projetos__item--descricao">Site de tarefas com Pomodoro, onde você pode adicionar, editar, completar e remover tarefas.</p>
+                        <button>Visualizar</button>
+                    </div>
+                    <div class="main-projetos__item segundo">
+                        <h2 class="projetos__item--title">PetFrame</h2>
+                        <p class="projetos__item--descricao">Upload e pré-visualização de imagens em um app voltado para pets.</p>
+                        <button>Visualizar</button>
+                    </div>
+                       <div class="main-projetos__item terceiro">
+                        <h2 class="projetos__item--title">Anúncio Pro</h2>
+                        <p class="projetos__item--descricao">Interface de marketing para promover anúncios pagos de forma criativa.</p>
+                        <button>Visualizar</button>
+                    </div>
+                    
+                </div>
+                <div class="main-projetos__controle">
+                    <div class="main-projetos__auto">
+                        <div class="projetos__auto--btn1"></div>
+                        <div class="projetos__auto--btn2"></div>
+                        <div class="projetos__auto--btn3"></div>
+                    </div>
+                    <div class="main-projetos__manual">
+                       <label for="radio1" class="projetos__manual-btn"></label>
+                       <label for="radio2" class="projetos__manual-btn"></label>
+                       <label for="radio3" class="projetos__manual-btn"></label>
+                    </div>
+                </div>
+            </section>
         </main>
         
         <footer class="hidden rodape">
