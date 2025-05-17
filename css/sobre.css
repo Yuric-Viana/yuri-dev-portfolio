@@ -91,6 +91,11 @@
         margin-left: 1em;
         border-radius: 5px;
     }
+
+    & a {
+        text-decoration: none;
+        color: var(--cor-text);
+    }
 }
 
 .projetos__item--title {
@@ -133,6 +138,26 @@
     transition: all 0.4s ease;
 }
 
-/* .main-projetos__manual .projetos__manual-btn:hover {
-    background-color: var(--cor-secundaria);
-} */
+.main-skills {
+    margin-top: 4em;
+}
+
+.main-skills__title {
+    margin-bottom: 2em;
+}
+
+.main-skills__icons {
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+}
+
+.skills__icons--item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#Js {
+    width: 3em;
+}
