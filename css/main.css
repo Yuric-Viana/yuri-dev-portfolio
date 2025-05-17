@@ -146,6 +146,15 @@ a {
         margin-top: 8em;
     }
 
+    .apresentacao__text--paragrafo {
+        font-size: 2.2em;
+        opacity: 0.8;
+    }
+
+    .apresentacao__text--title {
+        font-size: 3.8em;
+    }
+
     .content-links__social--info {
         gap: 2em;
     }
@@ -162,6 +171,11 @@ a {
     .apresentacao__text--buttton {
         position: relative;
         margin-top: 3em;
+        font-size: 1.5em;
+    }
+
+    .links__social--img {
+        width: 3em;
     }
 
     .content-img {
