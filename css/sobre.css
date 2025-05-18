@@ -150,6 +150,7 @@
     display: flex;
     justify-content: center;
     gap: 3em;
+    flex-wrap: wrap;
 }
 
 .skills__icons--item {
@@ -164,7 +165,6 @@
 
 .main-quality {
     margin-top: 4em;
-    gap: 1em;
 }
 
 .main-quality__title {
@@ -174,16 +174,16 @@
 .main-quality__content {
     display: flex;
     gap: 1em;
-    margin: 1em 0;
 }
 
 .main-quality__item, 
 .skills__icons--content {
     border: 1px solid var(--cor-qualitys);
     padding: 1em;
-    text-align: start;
+    text-align: center;
     background-color: var(--cor-qualitys);
     width: 100%;
+    margin: .5em 0;
     border-radius: 10px;
     cursor: pointer;
     transition: transform .4s ease-in-out;
@@ -192,6 +192,12 @@
 .main-quality__item:hover, 
 .skills__icons--content:hover {
     transform: translateY(-10px);
+}
+
+@media screen and (max-width: 428px) {
+    .main-quality__item {
+        padding-inline: 0;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -325,5 +331,14 @@
 
     .main-quality {
         width: 100%;
+    }
+
+    .main-quality__title {
+        font-size: 2em;
+    }
+
+    .main-quality__item {
+        height: 5em;
+        padding-top: 2em;
     }
 }

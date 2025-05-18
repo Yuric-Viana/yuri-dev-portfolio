@@ -53,6 +53,10 @@ a {
     -webkit-tap-highlight-color: transparent;
 }
 
+.links__social--img {
+    width: 2em;
+}
+
 .content-img {
     display: flex;
     flex-direction: column;
@@ -92,7 +96,8 @@ a {
     }
 
     .apresentacao__text--title {
-        font-size: 2.5em;
+        font-size: 2.2em;
+        line-height: 1.2em;
         text-align: justify;
     }
 
