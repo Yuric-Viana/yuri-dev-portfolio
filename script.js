@@ -10,7 +10,7 @@ export function navBar() {
         
         ativo = !ativo;
         
-        menuHamburguer.src = ativo ? 'assets/icons8-cardápio.svg' : 'assets/close-x-svgrepo-com.svg';
+        menuHamburguer.src = ativo ? 'assets/icons8-cardápio.svg' : 'assets/close-x-svgrepo-com.svg'; 
         
         contentHidden.forEach(hidden => {
             hidden.style.opacity = ativo ? 1 : 0;
@@ -19,3 +19,4 @@ export function navBar() {
 } 
 
 navBar()
+

@@ -34,6 +34,10 @@
     line-height: 1.2em;
 }
 
+.text {
+    opacity: 0.8;
+}
+
 .main-slider {
     margin: 0 auto;
     width: 100%;

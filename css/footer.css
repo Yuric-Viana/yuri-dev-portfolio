@@ -20,5 +20,10 @@
     .rodape p {
         font-size: 1.5em;
     }   
+
+    .rodape-links {
+        margin-top: 8em;
+    }
+
 }
 
