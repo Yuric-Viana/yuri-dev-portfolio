@@ -55,8 +55,9 @@
     padding: .8em .4em;
 }
 
-.contato-form__item--text:focus {
-    background-color: var(--branco-escuro);
+.contato-form__item--text:focus,
+.contato-form__item--text:not(:placeholder-shown) {
+  background-color: var(--branco-escuro);
 }
 
 .contato-form__button {
