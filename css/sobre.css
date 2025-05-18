@@ -172,7 +172,8 @@
 }
 
 .main-quality__content {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 1em;
 }
 
@@ -195,8 +196,18 @@
 }
 
 @media screen and (max-width: 428px) {
+    .main-quality__content {
+        gap: 2em;
+    }
+    
     .main-quality__item {
         padding-inline: 0;
+    }
+
+    .main-quality__item {
+        width: 120%;
+        transform: translateX(-.4em);
+        word-break: break-word;
     }
 }
 
