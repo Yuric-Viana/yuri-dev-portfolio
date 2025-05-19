@@ -78,6 +78,10 @@
 }
 
 @media screen and (max-width: 428px) {
+    .contato-form {
+        padding: 1em;
+    }
+    
     .contato-title {
         font-size: 1em;
         margin-top: 0;
