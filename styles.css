@@ -51,8 +51,7 @@ body {
 	background-color: var(--cor-primaria);
 	font-family: var(--font-principal);
 	color: var(--cor-text);
-	padding: 2em; 	
-	overflow-x: hidden;
+	padding: 2em;
 }
 
 ol, ul {
@@ -78,12 +77,12 @@ table {
     border-radius: 1em;
 	padding: 2em;
 	height: auto;
+	width: fit-content;
 }
 
 @media screen and (min-width: 1024px) {
 	.caixa {
-		margin: 4em 2em;
 		padding: 4em 6em;
-		height: auto 0;
+		height: auto;
 	}
 }

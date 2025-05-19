@@ -30,48 +30,50 @@
             <img id="hidden" src="assets/rosto-emoji.svg" alt="Emoji de rosto">
         </header>
 
-        <main class="hidden contato">
-            <div class="contato-descricao">
-                <p>Transformo ideias em experiências digitais incríveis!</p>
-                <br>
-                <p>
-                    Com foco em <strong>desenvolvimento front-end</strong>, crio interfaces modernas, funcionais e com <strong>design responsivo</strong> que oferecem uma navegação fluida e intuitiva.
-                </p>
-                <br>
-                <p>    
-                    Seja um portfólio profissional, uma landing page impactante ou um site institucional completo, seu projeto será desenvolvido com atenção aos detalhes e alinhado às melhores práticas da web.
-                </p>
-                <br>
-                <p>    
-                    Esqueça os modelos prontos e limitados! <strong>Cada projeto que desenvolvo é único</strong>, pensado para refletir a identidade da sua marca e alcançar os seus objetivos com eficiência e estilo.
-                </p>
-                <br>
-                <p>
-                    <strong>Vamos dar vida ao seu projeto com um visual marcante e código limpo?</strong>
-                    Entre em contato e vamos conversar!
-                </p>
-            </div>
-            <h2 class="contato-title">Entre em contato</h2>
-            <div class="contato-form">
-                <form action="https://formsubmit.co/ycviana.dev@gmail.com" method="POST">
-                    <div class="contato-form__item">
-                        <label for="name">Nome *</label>
-                        <input class="contato-form__item--text" type="text" name="name" id="name" placeholder="Coloque seu nome aqui" required>
-                    </div>
-                    <div class="contato-form__item">
-                        <label for="email">E-mail *</label>
-                        <input class="contato-form__item--text" type="email" name="email" placeholder="example@domain.com" required>
-                    </div>
-                    <div class="contato-form__item">
-                        <label for="wpp">WhatsApp *</label>
-                        <input class="contato-form__item--text" type="text" name="number" placeholder="(00) 00000-0000" required>
-                    </div>
-                    <div class="contato-form__item">
-                        <label for="mensagem">Mensagem *</label>
-                        <textarea rows="5" class="contato-form__item--text" name="mensagem" id="mensagem" placeholder="Olá, tudo bem? Gostaria de um orçamento..." required></textarea>
-                    </div>
-                    <button type="submit">Enviar <img class="contato-form__button" src="assets/icons8-clique-do-mouse.svg" alt="Clique aqui"></button>
-                </form>
+        <main id="contato-form" class="hidden contato">
+            <div class="contato-info">
+                <div class="contato-descricao">
+                    <p>Transformo ideias em experiências digitais incríveis!</p>
+                    <br>
+                    <p>
+                        Com foco em <strong>desenvolvimento front-end</strong>, crio interfaces modernas, funcionais e com <strong>design responsivo</strong> que oferecem uma navegação fluida e intuitiva.
+                    </p>
+                    <br>
+                    <p>
+                        Seja um portfólio profissional, uma landing page impactante ou um site institucional completo, seu projeto será desenvolvido com atenção aos detalhes e alinhado às melhores práticas da web.
+                    </p>
+                    <br>
+                    <p>
+                        Esqueça os modelos prontos e limitados! <strong>Cada projeto que desenvolvo é único</strong>, pensado para refletir a identidade da sua marca e alcançar os seus objetivos com eficiência e estilo.
+                    </p>
+                    <br>
+                    <p>
+                        <strong>Vamos dar vida ao seu projeto com um visual marcante e código limpo?</strong>
+                        Entre em contato e vamos conversar!
+                    </p>
+                </div>
+                <div class="contato-form">
+                    <h2 class="contato-title">Preencha abaixo para entrar em contato</h2>
+                    <form id="form" action="https://formsubmit.co/ycviana.dev@gmail.com" method="POST">
+                        <div class="contato-form__item">
+                            <label for="name">Nome *</label>
+                            <input class="contato-form__item--text" type="text" name="name" id="name" placeholder="Coloque seu nome aqui" required>
+                        </div>
+                        <div class="contato-form__item">
+                            <label for="email">E-mail *</label>
+                            <input class="contato-form__item--text" type="email" name="email" placeholder="example@domain.com" required>
+                        </div>
+                        <div class="contato-form__item">
+                            <label for="wpp">WhatsApp *</label>
+                            <input class="contato-form__item--text" type="text" name="number" placeholder="(00) 00000-0000" required>
+                        </div>
+                        <div class="contato-form__item">
+                            <label for="mensagem">Mensagem *</label>
+                            <textarea rows="5" class="contato-form__item--text" name="mensagem" id="mensagem" placeholder="Olá, tudo bem? Gostaria de um orçamento..." required></textarea>
+                        </div>
+                        <button id="botao-enviar" type="submit">Enviar <img class="contato-form__button" src="assets/icons8-clique-do-mouse.svg" alt="Clique aqui"></button>
+                    </form>
+                </div>
             </div>
         </main>
         

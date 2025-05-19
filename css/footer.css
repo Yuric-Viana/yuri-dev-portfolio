@@ -25,5 +25,10 @@
         margin-top: 8em;
     }
 
+    .rodape-links__social {
+        display: flex;
+        gap: 1.2em;
+    }
+
 }
 
