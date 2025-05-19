@@ -77,12 +77,12 @@ table {
     border-radius: 1em;
 	padding: 2em;
 	height: auto;
-	width: fit-content;
 }
 
 @media screen and (min-width: 1024px) {
 	.caixa {
 		padding: 4em 6em;
 		height: auto;
+		width: fit-content;
 	}
 }
