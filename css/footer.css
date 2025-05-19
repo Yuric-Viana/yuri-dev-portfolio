@@ -4,6 +4,10 @@
 
 .rodape p {
     font-size: 12px;
+
+    & strong {
+        color: var(--cor-secundaria);
+    }
 }
 
 .rodape-links {
