@@ -12,6 +12,10 @@
     width: 2em;
 }
 
+#title-cabecalho {
+    color: black;
+}
+
 .cabecalho-top__title {
     color: black;
     font-size: 1.5em;

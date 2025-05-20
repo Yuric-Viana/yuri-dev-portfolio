@@ -1,5 +1,5 @@
 .contato {
-    margin-top: 6em;
+    margin-top: 1em;
 }
 
 .contato-info {
@@ -76,7 +76,7 @@
 
 .contato-form__item--text:focus,
 .contato-form__item--text:not(:placeholder-shown) {
-  background-color: var(--branco-escuro);
+    background-color: var(--branco-escuro);
 }
 
 .contato-form__button {
@@ -87,7 +87,7 @@
     .contato-form {
         padding: 1em;
     }
-    
+
     .contato-title {
         font-size: 1em;
         margin-top: 0;
@@ -95,10 +95,14 @@
 }
 
 @media screen and (min-width: 768px) {
+    .contato {
+        margin-top: 6em;
+    }
+
     .contato-descricao {
         height: 50%;
     }
-    
+
     .contato-info {
         display: grid;
         grid-template-columns: 1fr 1fr;

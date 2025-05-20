@@ -69,6 +69,7 @@ a {
     width: 8em;
     margin-right: 5em;
     margin-top: 1em;
+    filter: drop-shadow(var(--cor-secundaria) 0.5rem 0.5rem 10px);
 }
 
 .rodape {
@@ -191,5 +192,6 @@ a {
         position: relative;
         margin: 0;
         width: 30em;
+        filter: drop-shadow(var(--cor-secundaria) 1rem 1rem 10px);
     }
 }

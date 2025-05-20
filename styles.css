@@ -47,12 +47,33 @@ footer, header, hgroup, menu, nav, section {
 	box-sizing: border-box;
 }
 
+html, body {
+	height: auto;
+	transform-style: preserve-3d;
+}
+
 body {
 	line-height: 1;
 	background-color: var(--cor-primaria);
 	font-family: var(--font-principal);
 	color: var(--cor-text);
-	padding: 2em;
+	padding: 2em;	
+}
+
+.effect-entrada {
+	transform: rotateY(360deg);
+	opacity: 0;	
+	transition: transform 4s ease;
+	animation: flipIn 0.1s ease forwards;
+}
+
+body.no-scroll {
+  overflow: hidden;
+}
+
+.effect-saida {
+    transform: rotateY(180deg);	
+	transition: transform 5s ease;
 }
 
 ol, ul {
@@ -78,6 +99,7 @@ table {
     border-radius: 1em;
 	padding: 2em;
 	height: auto;
+	perspective: 1200px;
 }
 
 @media screen and (min-width: 1024px) {
@@ -85,5 +107,11 @@ table {
 		padding: 4em 6em;
 		height: auto;
 		width: fit-content;
+	}
+}
+
+@keyframes flipIn {
+	to {
+		opacity: 1;
 	}
 }

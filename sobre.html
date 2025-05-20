@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>Yuri V. | Desenvolvedor Front-End</title>
 </head>
+
 <body>
-     <section class="caixa">
+    <section class="caixa">
         <header class="cabecalho">
             <div class="cabecalho-top">
                 <img class="cabecalho-top__menu" src="assets/icons8-cardápio.svg" alt="Menu hamburguer">
-                <a class="cabecalho-top__link" href="index.html">
+                <a class="cabecalho-top__link cabecalho-navegacao__list--link" href="index.html">
                     <h2 class="cabecalho-top__title">Dev<strong>Orange</strong></h2>
                 </a>
                 <img class="cabecalho-top__emoji" src="assets/rosto-emoji.svg" alt="Emoji de rosto">
@@ -20,6 +22,9 @@
                 <ul class="cabecalho-navegacao__list">
                     <a class="cabecalho-navegacao__list--link" href="sobre.html">
                         <li class="navegacao__list--item">Sobre</li>
+                    </a>
+                    <a class="cabecalho-navegacao__list--link" href="certificados.html">
+                        <li class="navegacao__list--item">Certificados</li>
                     </a>
                     <a class="cabecalho-navegacao__list--link" href="contato.html">
                         <li class="navegacao__list--item">Contato</li>
@@ -36,12 +41,16 @@
                 </div>
                 <div>
                     <h2 class="main-sobre__subtitle text">Sobre mim</h2>
-                    <h1 class="main-sobre__title">Transformando ideias em 
-                        <strong>experiências digitais</strong></h1>
-                    <p class="main-sobre__descricao text">Sou estudante de Engenharia de Software com paixão por criar sites interativos, responsivos e centrados no usuário. Meu foco é transformar conceitos em interfaces funcionais, intuitivas e visualmente envolventes sempre pensando na melhor experiência possível para quem navega.</p>
+                    <h1 class="main-sobre__title">Transformando ideias em
+                        <strong>experiências digitais</strong>
+                    </h1>
+                    <p class="main-sobre__descricao text">Sou estudante de Engenharia de Software com paixão por criar
+                        sites interativos, responsivos e centrados no usuário. Meu foco é transformar conceitos em
+                        interfaces funcionais, intuitivas e visualmente envolventes sempre pensando na melhor
+                        experiência possível para quem navega.</p>
                 </div>
             </div>
-            
+
             <input class="main-btn" type="radio" name="btn-radio" id="radio1">
             <input class="main-btn" type="radio" name="btn-radio" id="radio2">
             <input class="main-btn" type="radio" name="btn-radio" id="radio3">
@@ -49,23 +58,29 @@
             <section class="main-slider">
                 <h2 class="main-projetos__title">Meus projetos acadêmicos</h2>
                 <div class="main-projetos">
-                
+
                     <div class="main-projetos__item primeiro">
                         <h2 class="projetos__item--title">Pomodoro</h2>
-                        <p class="projetos__item--descricao">Site de tarefas com Pomodoro, onde você pode adicionar, editar, completar e remover tarefas.</p>
-                        <button><a href="https://yuric-viana.github.io/fokus-projeto-pomodoro/" target="_blank">Visualizar</a></button>
+                        <p class="projetos__item--descricao">Site de tarefas com Pomodoro, onde você pode adicionar,
+                            editar, completar e remover tarefas.</p>
+                        <button><a href="https://yuric-viana.github.io/fokus-projeto-pomodoro/"
+                                target="_blank">Visualizar</a></button>
                     </div>
                     <div class="main-projetos__item segundo">
                         <h2 class="projetos__item--title">PetFrame</h2>
-                        <p class="projetos__item--descricao">Upload e pré-visualização de imagens em um app voltado para pets.</p>
-                        <button><a href="https://yuric-viana.github.io/projeto-mundo-pet/" target="_blank">Visualizar</a></button>
+                        <p class="projetos__item--descricao">Upload e pré-visualização de imagens em um app voltado para
+                            pets.</p>
+                        <button><a href="https://yuric-viana.github.io/projeto-mundo-pet/"
+                                target="_blank">Visualizar</a></button>
                     </div>
-                       <div class="main-projetos__item terceiro">
+                    <div class="main-projetos__item terceiro">
                         <h2 class="projetos__item--title">AluraBooks</h2>
-                        <p class="projetos__item--descricao">Livraria online responsiva com carrossel de lançamentos.</p>
-                        <button><a href="https://yuric-viana.github.io/alurabooks/" target="_blank">Visualizar</a></button>
+                        <p class="projetos__item--descricao">Livraria online responsiva com carrossel de lançamentos.
+                        </p>
+                        <button><a href="https://yuric-viana.github.io/alurabooks/"
+                                target="_blank">Visualizar</a></button>
                     </div>
-                    
+
                 </div>
                 <div class="main-projetos__controle">
                     <div class="main-projetos__auto">
@@ -74,9 +89,9 @@
                         <div class="projetos__auto--btn3"></div>
                     </div>
                     <div class="main-projetos__manual">
-                       <label for="radio1" class="projetos__manual-btn"></label>
-                       <label for="radio2" class="projetos__manual-btn"></label>
-                       <label for="radio3" class="projetos__manual-btn"></label>
+                        <label for="radio1" class="projetos__manual-btn"></label>
+                        <label for="radio2" class="projetos__manual-btn"></label>
+                        <label for="radio3" class="projetos__manual-btn"></label>
                     </div>
                 </div>
             </section>
@@ -86,19 +101,24 @@
                     <h2 class="main-skills__title">Minhas habilidades</h2>
                     <div class="main-skills__icons">
                         <div class="skills__icons--content">
-                            <p class="skills__icons--item"><img class="skills__icons--img" src="assets/icons8-css3.svg" alt="Icone CSS">CSS</p>
+                            <p class="skills__icons--item"><img class="skills__icons--img" src="assets/icons8-css3.svg"
+                                    alt="Icone CSS">CSS</p>
                         </div>
                         <div class="skills__icons--content">
-                            <p class="skills__icons--item"><img class="skills__icons--img" id="Js" src="assets/icons7-javascript.svg" alt="Icone de JavaScript">JavaScript</p>
+                            <p class="skills__icons--item"><img class="skills__icons--img" id="Js"
+                                    src="assets/icons7-javascript.svg" alt="Icone de JavaScript">JavaScript</p>
                         </div>
                         <div class="skills__icons--content">
-                            <p class="skills__icons--item"><img class="skills__icons--img" src="assets/icons8-html-5.svg" alt="Icone HTML">HTML</p>
+                            <p class="skills__icons--item"><img class="skills__icons--img"
+                                    src="assets/icons8-html-5.svg" alt="Icone HTML">HTML</p>
                         </div>
                         <div class="skills__icons--content">
-                            <p class="skills__icons--item"><img class="skills__icons--img" src="assets/icons8-visual-studio.svg" alt="Icone Vs code">VS Code</p>
+                            <p class="skills__icons--item"><img class="skills__icons--img"
+                                    src="assets/icons8-visual-studio.svg" alt="Icone Vs code">VS Code</p>
                         </div>
                         <div class="skills__icons--content">
-                            <p class="skills__icons--item"><img class="skills__icons--img github" src="assets/icons8-github.svg" alt="Icone Vs code">GitHub</p>
+                            <p class="skills__icons--item"><img class="skills__icons--img github"
+                                    src="assets/icons8-github.svg" alt="Icone Vs code">GitHub</p>
                         </div>
                     </div>
                 </div>
@@ -127,26 +147,30 @@
                 </div>
             </div>
         </main>
-        
+
         <footer class="hidden rodape">
-             <div class="rodape-links">
-                    <nav class="rodape-links__social">
-                        <a href="https://github.com/Yuric-Viana" target="_blank">
-                            <img class="links__social--img" src="assets/github-icon-1-logo-svgrepo-com.svg" alt="Imagem do GitHub" class="content-links__social--item">
-                        </a>
-                        <a href="mailto:yuricardosoviana@gmail.com" target="_blank">
-                            <img class="links__social--img" src="assets/icons8-gmail.svg" alt="Imagem do gmail" class="content-links__social--item">
-                        </a>
-                        <a href="https://www.linkedin.com/in/yuri-viana-2a7468357/" target="_blank">
-                            <img class="links__social--img" src="assets/linkedin-svgrepo-com.svg" alt="Imagem do linkedin" class="content-links__social--item">
-                        </a>
-                    </nav>
-                </div>
-           <p>© Todos os direitos reservados
+            <div class="rodape-links">
+                <nav class="rodape-links__social">
+                    <a href="https://github.com/Yuric-Viana" target="_blank">
+                        <img class="links__social--img" src="assets/github-icon-1-logo-svgrepo-com.svg"
+                            alt="Imagem do GitHub" class="content-links__social--item">
+                    </a>
+                    <a href="mailto:yuricardosoviana@gmail.com" target="_blank">
+                        <img class="links__social--img" src="assets/icons8-gmail.svg" alt="Imagem do gmail"
+                            class="content-links__social--item">
+                    </a>
+                    <a href="https://www.linkedin.com/in/yuri-viana-2a7468357/" target="_blank">
+                        <img class="links__social--img" src="assets/linkedin-svgrepo-com.svg" alt="Imagem do linkedin"
+                            class="content-links__social--item">
+                    </a>
+                </nav>
+            </div>
+            <p>© Todos os direitos reservados
                 Desenvolvido por <strong>Yuri V.</strong></p>
         </footer>
     </section>
 
     <script type="module" src="scripts/sobre.js"></script>
 </body>
+
 </html>
