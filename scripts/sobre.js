@@ -1,7 +1,6 @@
 import { navBar } from "../script.js";
 
 let divSlide = document.querySelectorAll('.main-btn');
-const efeitoBackgroundHover = document.querySelectorAll('.projetos__manual-btn');
 let cont = 1;
 
 document.getElementById('radio1').checked = true; 
