@@ -1,0 +1,17 @@
+.content-icon {
+    position: relative;
+}
+
+.content-icon__img--aprendizado {
+    width: 10em;
+    margin-left: 10em;
+    position: relative;
+}
+
+.content-img__linha {
+    position: absolute;
+    width: calc(10em + 10em);
+    height: 2px;
+    margin-left: -2em;
+    background-color: var(--cor-text);
+}

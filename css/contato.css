@@ -2,6 +2,11 @@
     margin-top: 6em;
 }
 
+.contato-info {
+    display: flex;
+    flex-direction: column;
+}
+
 .contato-title {
     text-align: center;
     font-size: 1.4em;
