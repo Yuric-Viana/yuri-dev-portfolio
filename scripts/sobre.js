@@ -2,7 +2,7 @@ import { navBar } from "../script.js";
 
 const ulSugestoes = document.querySelector('.main-sugestoes__list');
 const btnEnviar = document.querySelector('.main-sugestoes__btn');
-const inputList = document.querySelector('.main-sugestoes__input');
+const inputList = document.querySelector('.main-sugestoes__text--area');
 const formLista = document.querySelector('.main-sugestoes__form');
 
 const sugestao = JSON.parse(localStorage.getItem('sugestao')) || [];
