@@ -219,20 +219,22 @@
     flex-direction: column;
 }
 
-.main-sugestoes__input {
+.main-sugestoes__text--area {
     height: 3em;
     border-radius: 5px;
     outline: none;
     font-size: 1em;
 }
 
-.main-sugestoes__input::placeholder {
+.main-sugestoes__text--area::placeholder {
     font-size: 1.2em;
+    padding-left: 1em;
 }
 
 .main-sugestoes__btn {
     height: 1.5em;
     cursor: pointer;
+    color: #000;
     width: 6em;
     font-size: 1.2em;
     border-radius: 5px;
