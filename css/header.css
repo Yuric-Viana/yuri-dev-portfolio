@@ -70,10 +70,12 @@
 .list--item__maleta,
 .list--item__diploma {
     width: 1.4em;
+    display: none;
 }
 
 .list--item__contato {
     width: 1.8em;
+    display: none;
 }
 
 #hidden {
@@ -181,11 +183,17 @@
         opacity: 0;
         color: var(--cor-secundaria);
         bottom: -35px;
-        left: -10px;
+        left: -6px;
     }
 
     .navegacao__list--item:hover .list--item__contato--text {
         opacity: 1;
+    }
+
+    .list--item__maleta,
+    .list--item__diploma,
+    .list--item__contato {
+        display: block;
     }
 
     #hidden {
