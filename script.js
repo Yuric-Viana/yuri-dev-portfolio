@@ -44,9 +44,12 @@ function effectPage(e) {
 
     const targetLink = e.currentTarget.href;
 
-    setTimeout(() => {
+    const onTransitionEnd = () => {
         window.location.href = targetLink;
-    }, 5000)
+        document.body.removeEventListener('transitionend', onTransitionEnd);
+    };
+
+    document.body.addEventListener('transitionend', onTransitionEnd);
 }
 
 link.forEach(effect => {
