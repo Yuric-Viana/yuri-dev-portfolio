@@ -88,10 +88,18 @@ formLista.addEventListener('submit', (e) => {
 
     const criarItemSugestao = criarSugestao(sugestaoInformada);
     ulSugestoes.append(criarItemSugestao);
-
+    
     salvarItem();
-
+    
     inputList.value = '';
+})
+
+inputList.addEventListener('keypress', (e) => {
+    if(e.key == 'Enter' && !e.shiftKey) {
+        e.preventDefault();
+        
+        formLista.requestSubmit();
+    }
 })
 
 sugestao.forEach(item => {
