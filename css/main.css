@@ -183,6 +183,11 @@ a {
         position: relative;
         margin-top: 3em;
         font-size: 1.5em;
+        transition: transform 0.5s ease;
+    }
+
+    .apresentacao__text--buttton:hover {
+        transform: translateY(-10px);
     }
 
     .links__social--img {
